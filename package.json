@@ -1,0 +1,44 @@
+{
+  "name": "react-pdf-merger",
+  "version": "1.0.0",
+  "description": "A modern PDF editor website for uploading, editing, and downloading PDF files",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "pdf-lib": "^1.17.1",
+    "react-pdf": "^7.7.0",
+    "pdfjs-dist": "^4.0.379",
+    "lucide-react": "^0.344.0",
+    "tailwindcss": "^3.4.1",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "typescript": "^5.2.2",
+    "vite": "^5.1.0"
+  },
+  "keywords": [
+    "pdf",
+    "editor",
+    "react",
+    "typescript",
+    "web-app"
+  ],
+  "author": "akashanjana08",
+  "license": "MIT"
+}
